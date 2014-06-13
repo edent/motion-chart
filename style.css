@@ -1,0 +1,53 @@
+#chart {
+}
+
+p {
+/*
+background-image:url('parliament.jpg');
+background-position:40px 19px;	
+background-size:1000px 602px;
+background-repeat: no-repeat;
+*/
+}
+
+text {
+font: 10px sans-serif;
+}
+
+.dot {
+stroke: #000;
+}
+
+.axis path, .axis line {
+fill: none;
+stroke: #000;
+shape-rendering: crispEdges;
+}
+
+.label {
+fill: #777;
+}
+
+.year.label {
+font: 500 196px "Helvetica Neue";
+
+fill: #ddd;
+}
+
+.year.label.active {
+fill: #aaa;
+}
+
+.overlay {
+fill: none;
+pointer-events: all;
+cursor: ew-resize;
+}
+
+h2 {
+	font-family: 'UnifrakturMaguntia', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+	font-size: 50px;
+	margin: 0 0 0 30px;
+	color: #333;
+}
